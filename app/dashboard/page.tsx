@@ -256,9 +256,9 @@ export default function DashboardPage() {
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <a href="/settings" className="hover:bg-primary/10 transition-colors">
+                  <a href="/connections" className="hover:bg-primary/10 transition-colors">
                     <Settings />
-                    <span>Settings</span>
+                    <span>Connections</span>
                   </a>
                 </SidebarMenuButton>
               </SidebarMenuItem>

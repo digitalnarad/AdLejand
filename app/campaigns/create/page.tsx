@@ -243,9 +243,11 @@ export default function CreateCampaignPage() {
           <SidebarFooter>
             <SidebarMenu>
               <SidebarMenuItem>
-                <SidebarMenuButton>
-                  <Settings />
-                  <span>Settings</span>
+                <SidebarMenuButton asChild>
+                  <a href="/connections" className="hover:bg-primary/10 transition-colors">
+                    <Settings />
+                    <span>Connections</span>
+                  </a>
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
